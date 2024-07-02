@@ -33,3 +33,6 @@ services:
       - ./root/opt/rdodoo15/odoo/odoo-server/customs_addons:/mnt/extra-addons:rw
       
     restart: always             # run as a service
+networks:
+  rdodoo15-network:
+
